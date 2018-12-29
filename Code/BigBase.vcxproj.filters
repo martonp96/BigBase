@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Common.hpp" />
+    <ClInclude Include="Game.hpp" />
+    <ClInclude Include="Settings.hpp" />
+    <ClInclude Include="Util.hpp" />
+    <ClInclude Include="Timer.hpp" />
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Crossmap.hpp">
+      <Filter>natives</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer.hpp">
+      <Filter>d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Invoker.hpp">
+      <Filter>natives</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.hpp">
+      <Filter>natives</Filter>
+    </ClInclude>
+    <ClInclude Include="Script.hpp">
+      <Filter>scriptmanager</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptCallback.hpp">
+      <Filter>scriptmanager</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptGlobal.hpp">
+      <Filter>scriptmanager</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptManager.hpp">
+      <Filter>scriptmanager</Filter>
+    </ClInclude>
+    <ClInclude Include="VMTHook.hpp">
+      <Filter>hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooking.hpp">
+      <Filter>hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.hpp">
+      <Filter>hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="Natives.hpp">
+      <Filter>natives</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScript.hpp">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.hpp" />
+    <ClInclude Include="LogScript.hpp">
+      <Filter>scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomText.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Common.cpp" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderer.cpp">
+      <Filter>d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptCallback.cpp">
+      <Filter>scriptmanager</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptManager.cpp">
+      <Filter>scriptmanager</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking.cpp">
+      <Filter>hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScript.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="LogScript.cpp">
+      <Filter>scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomText.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{6f939ad8-56b8-4dae-a800-e7b08df1de1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="natives">
+      <UniqueIdentifier>{71551855-77db-42d1-92c5-eb4b658f7557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="d3d">
+      <UniqueIdentifier>{df7adb36-cf22-40de-b0a8-1344ede1a73b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooking">
+      <UniqueIdentifier>{bebbb76a-a16d-4d06-8510-fca7a5396d96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scriptmanager">
+      <UniqueIdentifier>{e910ae2c-209a-4b06-bf13-374e6905045c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts">
+      <UniqueIdentifier>{1f5ac775-86a1-4662-82bb-35f4d9489a6d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
